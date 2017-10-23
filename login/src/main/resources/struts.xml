@@ -6,16 +6,16 @@
 <struts>
 
     <package name="default" namespace="/" extends="json-default">
-        <action name="">
-            <result>/login.jsp</result>
-        </action>
-        <action name="home">
-            <result>/login.jsp</result>
-        </action>
-        <action name="login" class="jana.struts.LoginAction">
-            <result name="success">/welcome.jsp</result>
-            <result name="error">/error.jsp</result>
-        </action>
+        <!--<action name="">-->
+            <!--<result>/login.jsp</result>-->
+        <!--</action>-->
+        <!--<action name="home">-->
+            <!--<result>/login.jsp</result>-->
+        <!--</action>-->
+        <!--<action name="login" class="jana.struts.LoginAction">-->
+            <!--<result name="success">/welcome.jsp</result>-->
+            <!--<result name="error">/error.jsp</result>-->
+        <!--</action>-->
     </package>
 
 </struts>
