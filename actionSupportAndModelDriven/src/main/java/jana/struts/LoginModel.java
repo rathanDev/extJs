@@ -2,14 +2,13 @@ package jana.struts;
 
 public class LoginModel {
 
-    private boolean success;
-
     //request
     private String username;
     private String password;
 
     //response
     private String status;
+    private boolean success;
 
     public String getUsername() {
         return username;
